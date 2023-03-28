@@ -1,0 +1,7 @@
+- [x] Introduce Stock type
+- [x] Trader know own stock amount
+- [x] What is suit for stock's idenfication. code?
+- [ ] Stock has price? stock + stock ... what to be.
+- [ ] Different stock add should be error.
+- [ ] Stock's price should be singleton?
+- [ ] Trader choose transactional person
