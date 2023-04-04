@@ -1,20 +1,13 @@
+// buy stock
+
+import {Account} from "./account";
+import {Order} from "./order";
 import {Stock} from "./stock";
 
-export class Trader {
-    private readonly stocks: Stock[] = [];
-    constructor(
-        readonly cash: number
-    ) {}
+const stock = new Stock('1000');
+const order = new Order(stock, 100, 10);
+const account = new Account([]);
 
-    ask(stock: Stock) {
-        this.stocks.push(stock);
-    }
+account.ask(order);
 
-    has(stock: Stock): boolean {
-        return this.stocks.findIndex(s => s.isEqual(stock)) > -1;
-    }
-
-    amountOf(stock: Stock): number {
-        return this.stocks.find(s => s.isEqual(stock))?.amount ?? 0;
-    }
-}
+console.log(`I have ${account.ammountOf(stock)} stocks`);

@@ -1,7 +1,14 @@
 - [x] Introduce Stock type
 - [x] Trader know own stock amount
 - [x] What is suit for stock's idenfication. code?
-- [ ] Stock has price? stock + stock ... what to be.
+- [x] need order?
+- [x] need HoldingStock for know how many shares of stock
+    - Trader should handle the number of owned stock using HoldingStock type.
+    - Type name should be OwnedStock
+- [x] need account?
+- [x] account can buy more stock.
+- [ ] stock type is string type alias
+- [ ] introduce fixture for test stock data
+- [ ] account can calculate own portfolio value.
 - [ ] Different stock add should be error.
-- [ ] Stock's price should be singleton?
 - [ ] Trader choose transactional person
