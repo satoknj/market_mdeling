@@ -1,8 +1,8 @@
-import { Stock } from './stock';
+import { StockCode } from './stock';
 
 export class Order {
     constructor(
-        readonly stock: Stock,
+        readonly stock: StockCode,
         readonly price: number,
         readonly amount: number,
     ) {}

@@ -1,8 +1,8 @@
-import {Stock} from "./stock";
+import {StockCode} from "./stock";
 
 export class OwnedStock {
     constructor(
-        readonly stock: Stock,
+        readonly stockCode: StockCode,
         readonly ammount: number,
     ) {}
 }

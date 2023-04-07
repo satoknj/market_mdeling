@@ -7,7 +7,7 @@
     - Type name should be OwnedStock
 - [x] need account?
 - [x] account can buy more stock.
-- [ ] stock type is string type alias
+- [x] stock type is string type alias -> introduce StockCode
 - [ ] introduce fixture for test stock data
 - [ ] account can calculate own portfolio value.
 - [ ] Different stock add should be error.
