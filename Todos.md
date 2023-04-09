@@ -8,7 +8,5 @@
 - [x] need account?
 - [x] account can buy more stock.
 - [x] stock type is string type alias -> introduce StockCode
-- [ ] introduce fixture for test stock data
-- [ ] account can calculate own portfolio value.
-- [ ] Different stock add should be error.
-- [ ] Trader choose transactional person
+- [x] calc portfolio value
+- [ ] add StockExchange to manage value of stock
